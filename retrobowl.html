@@ -1,31 +1,33 @@
 <doctype html>
-  <html>
-    <head>
-      <title>a make in the works</title>
+    <html>
+      <head>
+        <title>a make in the works</title>
+        <script type="module" src="x-frame-bypass.js"></script>
+      </head>
+      <body>
+          <h1>yeah</h1>
+        <title>Title of the document</title>
+      <style>
+        .wrap-element {
+          position: relative;
+          overflow: hidden;
+          padding-top: 56.25%;
+        }
+        .wrapped-iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+        }
+      </style>
     </head>
     <body>
-        <h1>farhan i updated the website its still in progress</h1>
-      <title>Title of the document</title>
-    <style>
-      .wrap-element {
-        position: relative;
-        overflow: hidden;
-        padding-top: 56.25%;
-      }
-      .wrapped-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="wrap-element">
-      <iframe class="wrapped-iframe" src="https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/226112567625258737/files/index.html" allowfullscreen></iframe>
-    </div>
-    </body>
-  </html>
-    
+      <div class="wrap-element">
+        <iframe is="x-frame-bypass" class="wrapped-iframe" src="https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/226112567625258737/files/index.html" allowfullscreen></iframe>
+      </div>
+      </body>
+    </html>
+      
+  
