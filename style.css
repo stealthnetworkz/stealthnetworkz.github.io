@@ -1,5 +1,5 @@
 img{
-    text-align: center;
+    float: center;
     border-style: solid;
     border-color: blue;
     border-width: 10px;
